@@ -1,0 +1,59 @@
+.userList {
+  flex: 4;
+  height: 350px;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.userEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.userDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.pieChart {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  margin: 30px;
+
+  -webkit-box-shadow: 5px 5px 29px 3px rgba(0, 0, 0, 0.42);
+  box-shadow: 5px 5px 29px 3px rgba(0, 0, 0, 0.42);
+}
+
+.individialSector {
+  width: 30%;
+}
+
+.individiualSectorTitle {
+  color: #8884d8;
+  font-size: 20px;
+}
+.list {
+text-align: left;
+}
+.listItem{
+  font-size: 17px;
+}
+.individiualJobTitle{
+  color: #3bb077;
+  font-size: 20px;
+}
