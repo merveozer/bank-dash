@@ -7,12 +7,10 @@ import { Link } from "react-router-dom";
 import { PieChart, Pie } from "recharts";
 
 export default function UserList() {
-
   const [data, setData] = useState(userRows);
 
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
-
   };
 
   const data01 = [
@@ -68,7 +66,10 @@ export default function UserList() {
             <Link to={"/user/" + params.row.id}>
               <button className="userEdit">Düzenle</button>
             </Link>
-            <DeleteOutline className="userDelete" onClick={() => handleDelete(params.row.id)} />
+            <DeleteOutline
+              className="userDelete"
+              onClick={() => handleDelete(params.row.id)}
+            />
           </>
         );
       },
@@ -85,8 +86,10 @@ export default function UserList() {
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
-  
-       
+      <Link to="/newUser">
+        <button className="userAddButton">Yeni Üye Oluştur</button>
+      </Link>
+
       <div className="pieChart">
         <PieChart width={400} height={250}>
           <Pie

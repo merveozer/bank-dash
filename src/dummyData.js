@@ -147,6 +147,94 @@ export const userRows = [
   },
 ];
 
+export const salesRows = [
+  {
+    id: 1,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "+",
+    status: "active",
+    price: "$122.52",
+  },
+  {
+    id: 2,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "+",
+    status: "active",
+    price: "$65842.52",
+  },
+  {
+    id: 3,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "-",
+    status: "active",
+    price: "$5842.52",
+  },
+
+  {
+    id: 4,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "+",
+    status: "active",
+    price: "$12658.52",
+  },
+  {
+    id: 5,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "-",
+    status: "active",
+    price: "$5842.52",
+  },
+
+  {
+    id: 6,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "+",
+    status: "active",
+    price: "$12658.52",
+  },
+  {
+    id: 7,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "-",
+    status: "active",
+    price: "$5842.52",
+  },
+
+  {
+    id: 8,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "-",
+    status: "active",
+    price: "$12658.52",
+  },
+
+  {
+    id: 9,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "+",
+    status: "active",
+    price: "$5842.52",
+  },
+
+  {
+    id: 10,
+    name: "İşlem",
+    img: "https://fizfy.com/wp-content/uploads/2020/09/sales-trends.jpg",
+    stock: "-",
+    status: "active",
+    price: "$12658.52",
+  },
+];
+
 export const data01 = [
   { name: "Group A", value: 400 },
   { name: "Group B", value: 300 },

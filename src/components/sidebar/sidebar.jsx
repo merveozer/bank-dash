@@ -1,5 +1,6 @@
 import React from "react";
 import "./sidebar.css";
+import { Link } from "react-router-dom";
 import {
   Receipt,
   AccountBox,
@@ -9,7 +10,7 @@ import {
   AttachMoney,
   DevicesOther,
   Payment,
-  Timeline
+  Timeline,
 } from "@material-ui/icons";
 
 export default function Sidebar() {
@@ -61,10 +62,18 @@ export default function Sidebar() {
               <DevicesOther className="sidebarIcon" />
               Diğer Bankacılık Hizmetleri
             </li>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Satışlar
-            </li>
+            <Link to="/sales" className="link">
+              <li className="sidebarListItem">
+                <Timeline className="sidebarIcon" />
+                Satışlar
+              </li>
+            </Link>
+            <Link to="/users" className="link">
+              <li className="sidebarListItem">
+                <Timeline className="sidebarIcon" />
+                Kullanıcılar
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
